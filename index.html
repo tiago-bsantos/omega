@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ômega | Design e Tecnologia</title>
+<link href="img/favicon.png" rel="icon" sizes="64x64">
+<link rel="stylesheet" href="bxslider/jquery.bxslider.min.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><img src="img/logo.png" alt="Logotipo Ômega"></a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="o-que-fazemos.html">O que fazemos</a>
+            <a href="nossa-equipe.html">Nossa equipe</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article class="bxslider">
+            <div>
+                <img src="img/destaque01.jpg" alt="Mesa de trabalho">
+                <h2>Um título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat placeat explicabo aliquam accusamus reprehenderit maxime?</p>
+            </div>
+            
+            <div>
+                <img src="img/destaque02.jpg" alt="Tela com códigos">
+                <h2>Outro título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat laudantium dignissimos, provident!</p>
+            </div>
+            
+            <div>
+                <img src="img/destaque03.jpg" alt="Imagens bootstrap">
+                <h2>Mais um título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem doloremque ad, obcaecati, quis voluptatibus iusto eos unde!</p>            
+            </div>
+        </article>
+        
+        <article>
+            <h2>Chamada</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos facere dicta minus ipsa reiciendis natus illo voluptatem similique laudantium sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, minima autem dolorum sapiente et illum omnis voluptates nihil molestias inventore.</p>
+        </article>
+        
+        <article>
+            <h2>Chamada</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem omnis aperiam non similique neque ullam ratione odit tempora, eligendi laudantium at quidem, velit! Dolor sint quidem, veritatis quasi eius blanditiis.</p>
+            <p>Quisquam neque alias molestias placeat aliquid blanditiis quam a consequuntur quidem tenetur temporibus velit quod magni quibusdam sunt vitae nobis, aut nemo delectus facilis labore minus architecto ducimus esse! Atque.</p>
+            <p>Libero in, natus accusantium dolorem magnam exercitationem fuga deleniti, amet nostrum ad voluptatibus modi quod qui eius delectus eos. Eius quas deleniti iste, minus suscipit optio pariatur culpa repellat quod.</p>
+            <img src="img/destaque04.jpg" alt="Vários desenhos de dispositivos">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi tempore provident similique debitis sed incidunt, ipsam minima quaerat delectus quis, modi placeat distinctio perferendis maiores, repudiandae accusantium velit dolore adipisci beatae labore! Aliquid dolore, nostrum quisquam, doloremque maiores similique animi, amet nam esse vitae qui iste quaerat reiciendis nisi delectus.</p>
+        </article>
+        
+        <article>
+            <h2>Chamada</h2>                
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, placeat?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste dolores pariatur officiis nulla recusandae expedita hic earum. Ducimus fuga, voluptatibus vitae vero modi minima architecto inventore voluptate cupiditate ipsam.</p>
+        </article>
+    </main>
+    <footer>
+        <aside>
+            <a href=""><img src="img/facebook.png" alt="Facebook"></a>
+            <a href=""><img src="img/instagram.png" alt="Instagram"></a>
+            <a href=""><img src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href=""><img src="img/twitter.png" alt="Twitter"></a>
+            <a href=""><img src="img/youtube.png" alt="Youtube"></a>
+        </aside>
+        <p>Desenvolvido por Tiago B. dos Santos &copy; 2017</p>
+    </footer>
+    
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="bxslider/jquery.bxslider.min.js"></script>    
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+      auto: true,
+      autoHover: true,
+      adaptiveHeight: true,
+      infiniteLoop: true,
+      pager: false,
+      pause: 5000,
+      mode: 'horizontal'
+  });
+});    
+</script>
+</body>
+</html>
