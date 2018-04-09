@@ -104,6 +104,23 @@ footer img {
 }
 
 
+ figure { 
+    margin: 50px 0; 
+    text-align: center;
+}
+
+figure:first-child {
+    margin-top: 10px;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    max-width: 850px;    
+    margin: auto;
+    padding: 10px 0;
+}
+
 /* contato.html */
 form { 
     margin:auto; 
