@@ -7,12 +7,6 @@
     box-sizing: border-box;
 }
 
-.clearfix::before, .clearfix::after {
-    content: "";
-    display: table;
-} 
-.clearfix::after { clear: both; }
-.clearfix { zoom: 1; /* For IE 6/7 (trigger hasLayout) */ }
 
 
 body {
@@ -102,20 +96,12 @@ footer img {
     margin-right: 5px;
 }
 
-.bx-wrapper { margin-bottom: 0; }
-.bx-wrapper .bx-controls-direction a { 
-    top: 45%; 
-    z-index: 50;
-}    
 
 
 #servicos section {
     box-shadow: none;
     margin: 30px 0;
 }
-
-#galeria { text-align: center; }
-#galeria img { display: inline;}
 
 
 /* contato.html */
@@ -155,10 +141,7 @@ label {
 
 
 @media screen and (min-width: 700px){
-    header {
-        display: flex;
-        align-items: center;
-        
+    header {        
         position: fixed;
         width: 100%;
         top:0;
@@ -166,6 +149,12 @@ label {
         z-index: 1000;
         background-color: rgba(245, 245, 245, 0.95);
     }
+
+    header div {
+        display: flex;
+        align-items: center;
+    }
+
     h1 { 
         margin-left: 3%; 
         margin-top: 5px;
@@ -188,15 +177,29 @@ label {
 
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1100px){
     body {font-size: 20px; }
-    header { height: 70px; }
+    header { 
+        height: 70px; 
+    }
+
+    header div {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    h1 { 
+        margin-top: 8px; 
+        margin-left: 0;
+    }
+
+    nav { justify-content: flex-end; }
+
     main { 
         max-width: 1100px; 
         margin-top: 80px; 
     }
-    
-    h1 { margin-top: 8px; }
+
 }
 
 
