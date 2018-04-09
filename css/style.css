@@ -155,6 +155,11 @@ label {
 	font-weight:bold;	
 }
 
+#enviar:hover, #enviar:focus {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
 
 
 @media screen and (min-width: 700px){
