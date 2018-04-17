@@ -12,12 +12,12 @@
 <body>
     <header>
         <div>
-            <h1><a href="index.html"><img src="img/logo.png" alt="Logotipo Ômega"></a></h1>
+            <h1><a href="index.html" tabindex="-1"><img src="img/logo.png" alt="Logotipo Ômega"></a></h1>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="o-que-fazemos.html">O que fazemos</a>
-                <a href="nossa-equipe.html">Nossa equipe</a>
-                <a href="contato.html">Contato</a>
+                <a href="index.html" tabindex="1">Home</a>
+                <a href="o-que-fazemos.html" tabindex="2">O que fazemos</a>
+                <a href="nossa-equipe.html" tabindex="3">Nossa equipe</a>
+                <a href="contato.html" tabindex="4">Contato</a>
             </nav>
         </div>
     </header>
@@ -29,26 +29,26 @@
             <form id="form-contato" name="form-contato" method="post" action="#">
                 <p>
                   <label for="nome">Nome:</label>
-                  <input name="nome" type="text" required id="nome" tabindex="1">
+                  <input name="nome" type="text" required id="nome" tabindex="5">
                 </p>
                 <p>
                   <label for="email">E-mail:</label>
-                  <input required type="email" name="email" id="email" tabindex="2">
+                  <input required type="email" name="email" id="email" tabindex="6">
                 </p>
                 <p>
                   <label for="telefone">Telefone:</label>
-                  <input type="tel" name="telefone" id="telefone" tabindex="3">
+                  <input type="tel" name="telefone" id="telefone" tabindex="7">
                 </p>
                 <p>
                   <label for="assunto">Assunto:</label>
-                  <input type="text" name="assunto" id="assunto" tabindex="4">
+                  <input type="text" name="assunto" id="assunto" tabindex="8">
                 </p>
                 <p>
                   <label for="mensagem">Mensagem:</label>
-                  <textarea required name="mensagem" cols="50" rows="6" id="mensagem" tabindex="5"></textarea>
+                  <textarea required name="mensagem" cols="50" rows="6" id="mensagem" tabindex="9"></textarea>
                 </p>
-                <button type="reset" id="limpar" tabindex="7">Limpar campos</button>
-                <button type="submit" id="enviar" tabindex="6">Enviar dados</button>
+                <button type="reset" id="limpar" tabindex="11">Limpar campos</button>
+                <button type="submit" id="enviar" tabindex="10">Enviar dados</button>
               </form>
             
             
